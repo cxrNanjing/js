@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // \w 数字字母下划线
+    // \d数字
+    // . 除了换行的所有
+    //\s 空格
+    let hd = '你好 2020 2323'
+    console.log(hd.match(/\d+/g));
+    console.log(/\d+/.test(hd));
+    //邮箱
+    let hs = 'qq121113945@qq.com'
+    console.log(hs.match(/\d+@\w+\.\w+/));
+
+  </script>
+
+</body>
+
+</html>
